@@ -7,8 +7,8 @@
 - [Post instalación](https://docs.docker.com/engine/install/linux-postinstall/)
 
 ## Pasos
-1. Instalar WSL2: `wsl --install`
-2. Instalar Ubuntu en WSL2: `wsl --install -d Ubuntu`
+1. Tener activado WSL, ver en "activar o desactivar las caracteristicas de windows"
+2. Instalar Ubuntu desde microsoft store
 3. Seguir los pasos de la documentación de Docker para instalar Docker en Linux y la post instalación para no usar sudo:
     1. Actualizar el índice de paquetes apt e instalar los paquetes necesarios para permitir que apt use un repositorio a través de HTTPS:
         ```
