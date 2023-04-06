@@ -38,11 +38,13 @@
         ```
         sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
         ```
-    6. Verificar que la instalación fue exitosa ejecutando la imagen hello-world:
+
+    6. Seguir los pasos de la documentación de post instalación de Docker para evitar el uso de sudo: 
         ```
-        sudo docker run hello-world
+        sudo groupadd docker
+        sudo usermod -aG docker $USER
         ```
-    7. Seguir los pasos de la documentación de post instalación de Docker para evitar el uso de sudo: [Post instalación](https://docs.docker.com/engine/install/linux-postinstall/)
+        reiniciar terminal
 4. Habilitar Docker:
     ```
     sudo systemctl enable docker
