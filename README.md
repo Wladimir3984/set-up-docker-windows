@@ -1,3 +1,4 @@
+# NO FUNCIONA
 # set-up-docker-windows
 # Instalación de Docker en Linux con WSL2
 
